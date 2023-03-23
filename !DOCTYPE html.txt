@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <link rel="stylesheet" href="style.css">
+<title>Change Background Color onclick using JavaScript</title>
+</head>
+<body>
+ <div class="container">
+
+     <nav id="navbar">
+          <ul>
+               <li><a href="#">Home</a></li>
+               <li><a href="#">Services</a></li>
+               <li><a href="#">Prices</a></li>
+               <li><a href="#">About Us</a></li>
+             </ul>
+     </nav>
+
+     <nav id="SideNavbar">
+          <ul>
+               <li><a href="#">Home</a></li>
+               <li><a href="#">Services</a></li>
+               <li><a href="#">Prices</a></li>
+               <li><a href="#">About Us</a></li>
+             </ul>
+     </nav>
+
+     <div class="btn">
+          <button onclick="chooseColor()">Choose Color</button>
+          <br/> <br/>
+          <button onclick="sideNavbar()">Switch Navbar</button>
+     </div>
+     <div id="HideAndShowColors">
+          <span id='1' onclick="color(this)" class='color clr1'></span>
+          <span id='2' onclick="color(this)" class='color clr2'></span>
+          <span id='3' onclick="color(this)" class='color clr3'></span>
+          <span id='4' onClick="color(this)" class='color clr4'></span>
+          </div>
+  
+ </div>
+ <script src="colorpicker.js"></script>
+</body>
+</html>
